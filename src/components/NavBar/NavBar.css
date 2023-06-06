@@ -1,0 +1,13 @@
+#botonera {
+    background-color: #13253C;
+  }
+
+#botonera ul li {
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #F5F5F5;
+}
+
+h1{
+    color: #F5F5F5;
+}
