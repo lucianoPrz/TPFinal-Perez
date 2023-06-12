@@ -1,23 +1,25 @@
 import { useState } from "react"
 
-const ItemCount = () => {
-    const [contador, setContador] = useState(1)
-    const maximo = 10 //Stock maximo
+const ItemCount = ({inicial,stock}) => {
+    const [contador, setContador] = useState(inicial)
+     //Stock maximo
 
     //Funciones para aumentar y disminuir el contador
     const incrementar = () => {
-        contador < 10 ? setContador(contador + 1) : setContador(contador)
+        contador < stock ? setContador(contador + 1) : setContador(contador)
     };
 
     const decrementar = () => {
-        contador > 1 ? setContador(contador - 1) : setContador(contador)
+        contador > inicial ? setContador(contador - 1) : setContador(contador)
     };
 
   return (
-    <div>
-        <button onClick={decrementar}>-</button>
-        <p> {contador} </p>
-        <button onClick={incrementar}>+</button>
+    <div className="d-flex justify-content-center">
+        <button onClick={decrementar} type="button" class="btn btn-outline-primary">-</button>
+        <p className="px-5 fw-bold"> {contador} </p>
+        <button onClick={incrementar} type="button" class="btn btn-outline-primary">+</button>
+
+        <button className="ms-3 btn btn-success">Agregar al Carrito</button>
     </div>
   )
 }
