@@ -4,7 +4,7 @@ import './ItemList.css'
 // eslint-disable-next-line react/prop-types
 const ItemList = ({productos}) => {
   return (
-    <div className="contenedorProductos row container-fluid">
+    <div className="contenedorProductos row container-fluid m-auto">
         {productos.map( prod => <Item key={prod.id} {...prod} />)}
     </div>
   )

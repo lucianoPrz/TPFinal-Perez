@@ -14,7 +14,7 @@ const ItemCount = ({inicial,stock, onAdd}) => {
     };
 
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center my-3">
         <button onClick={decrementar} type="button" className="btn btn-outline-primary">-</button>
         <p className="px-5 fw-bold"> {contador} </p>
         <button onClick={incrementar} type="button" className="btn btn-outline-primary">+</button>

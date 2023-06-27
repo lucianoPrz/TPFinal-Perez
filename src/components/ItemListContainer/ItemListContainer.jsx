@@ -26,8 +26,8 @@ const ItemListContainer = ({gretting}) => {
 
   return (
     <div>
-      <h2 className="text-center py-2"> {gretting} </h2>
-      <h2>Mis productos: </h2>
+      <h2 className="text-center py-2 m-auto"> {gretting} </h2>
+      <h2 className="me-auto">Mis productos: </h2>
       <ItemList productos={productos}/>
       <ItemCount inicial={1} stock={10} onAdd={onAdd}/>
     </div>
