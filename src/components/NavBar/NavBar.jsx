@@ -16,10 +16,10 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink to={`/categoria/1`} className='navLink'> Camisetas </NavLink>
+                                <NavLink to={`/categoria/camisetas`} className='navLink'> Camisetas </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to={`/categoria/2`} className='navLink'> Camperas </NavLink>
+                                <NavLink to={`/categoria/camperas`} className='navLink'> Camperas </NavLink>
                             </li>
                         </ul>
                     </div>

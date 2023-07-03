@@ -1,10 +1,10 @@
 const productos = [
-    { id:"1", nombre: "Camiseta Argentina 98", precio: 12000, stock: 10, img: "../img/arg98.jpg", idCat: "1"},
-    { id:"2", nombre: "Camiseta Boca 2000", precio: 15000, stock: 10, img: "../img/boca00.jpg", idCat: "1"},
-    { id:"3", nombre: "Camiseta Argentina 2022", precio: 15000, stock: 10, img: "../img/arg22.jpg", idCat: "1"},
-    { id:"4", nombre: "Camiseta Independiente 2003", precio: 10000, stock: 10, img: "../img/ind03.jpg", idCat: "1"},
-    { id:"5", nombre: "Campera Argentina 2022", precio: 10000, stock: 10, img: "../img/campArg22.jpg", idCat: "2"},
-    { id:"6", nombre: "Campera Napoli Maradona", precio: 10000, stock: 10, img: "../img/campNapMarado.webp", idCat: "2"}
+    { id:"camisetas", nombre: "Camiseta Argentina 98", precio: 12000, stock: 10, img: "../img/arg98.jpg", idCat: "camisetas"},
+    { id:"2", nombre: "Camiseta Boca 2000", precio: 15000, stock: 10, img: "../img/boca00.jpg", idCat: "camisetas"},
+    { id:"3", nombre: "Camiseta Argentina 2022", precio: 15000, stock: 10, img: "../img/arg22.jpg", idCat: "camisetas"},
+    { id:"4", nombre: "Camiseta Independiente 2003", precio: 10000, stock: 10, img: "../img/ind03.jpg", idCat: "camisetas"},
+    { id:"5", nombre: "Campera Argentina 2022", precio: 10000, stock: 10, img: "../img/campArg22.jpg", idCat: "camperas"},
+    { id:"6", nombre: "Campera Napoli Maradona", precio: 10000, stock: 10, img: "../img/campNapMarado.webp", idCat: "camperas"}
 ]
 
 export const getProductos = () => {
