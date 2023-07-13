@@ -36,7 +36,8 @@ const Checkout = () => {
             nombre,
             apellido,
             telefono,
-            email
+            email,
+            fecha: new Date()
         };
 
         //Guardo orden en base de datos:
@@ -56,7 +57,7 @@ const Checkout = () => {
         <h2>Checkout</h2>
         <form onSubmit={handlerForm}>
             {carrito.map(producto =>(
-                <div>
+                <div key={producto.id}>
                     <p>
                         {producto.item.nombre} x {producto.cantidad}
                     </p>
