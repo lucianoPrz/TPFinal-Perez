@@ -1,5 +1,5 @@
 const productos = [
-    { id:"camisetas", nombre: "Camiseta Argentina 98", precio: 12000, stock: 10, img: "../img/arg98.jpg", idCat: "camisetas"},
+    { id:"1", nombre: "Camiseta Argentina 98", precio: 12000, stock: 10, img: "../img/arg98.jpg", idCat: "camisetas"},
     { id:"2", nombre: "Camiseta Boca 2000", precio: 15000, stock: 10, img: "../img/boca00.jpg", idCat: "camisetas"},
     { id:"3", nombre: "Camiseta Argentina 2022", precio: 15000, stock: 10, img: "../img/arg22.jpg", idCat: "camisetas"},
     { id:"4", nombre: "Camiseta Independiente 2003", precio: 10000, stock: 10, img: "../img/ind03.jpg", idCat: "camisetas"},
