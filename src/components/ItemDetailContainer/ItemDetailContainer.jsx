@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-//import { getUnProduct } from "../../asyncmock"
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
@@ -23,13 +22,6 @@ const ItemDetailContainer = () => {
         .catch(error=>console.log(error));
 
     }, [idItem])
-
-    // useEffect(() =>{
-    //     getUnProduct(idItem)
-    //         .then(res => setProducto(res))
-    // }, [idItem])
-
-
 
   return (
     <ItemDetail {...producto}/>
