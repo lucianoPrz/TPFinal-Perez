@@ -5,6 +5,7 @@ Este es un proyecto de ecommerce básico que se utiliza para el curso de React. 
 - Vite
 - React
 - React Router
+- Bootstrap
 - Firebase
 
 ## Funcionalidades
