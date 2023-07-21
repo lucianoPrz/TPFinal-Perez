@@ -28,7 +28,10 @@ const ItemDetail = ({id, nombre, precio, img, stock}) => {
       </div>
       <img src={img} alt={nombre} className='img card-img-top w-50 m-3' />
       {
-        agregarCantidad > 0 ? (<Link to="/cart" className="ms-3 btn btn-success"> Terminar Compra </Link>) : (<ItemCount inicial={1} stock={stock} onAdd={handlerCantidad} />)
+        agregarCantidad > 0 ? (<div>
+          <Link to="/cart" className="ms-3 btn btn-success"> Terminar Compra </Link>
+          <Link to="/" className="ms-3 btn btn-primary"> Seguir comprando </Link>
+          </div> ) : (<ItemCount inicial={1} stock={stock} onAdd={handlerCantidad} /> )
       }
     </div>
   )

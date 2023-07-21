@@ -16,12 +16,14 @@ const Cart = () => {
         
     }
   return (
-    <div>
+    <div className='card'>
+        <div className='card-body'>
         {carrito.map(producto => <CartItem key={producto.id} {...producto} />)}
         <h3> Total: $ {total}</h3>
         <h3>Cantidad Total: {cantidadTotal}</h3>
-        <button onClick={vaciarCarrito}> Vaciar Carrito</button>
-        <Link to="/checkout">Finalizar Compra</Link>
+        <button onClick={vaciarCarrito} className='btn btn-danger me-2'> Vaciar Carrito</button>
+        <Link to="/checkout" className='btn btn-success'>Finalizar Compra</Link>
+        </div>
     </div>
   )
 }
