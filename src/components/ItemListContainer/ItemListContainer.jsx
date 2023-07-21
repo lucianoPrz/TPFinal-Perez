@@ -28,8 +28,8 @@ const ItemListContainer = ({gretting}) => {
 
   return (
     <div>
-      <h2 className="text-center py-2 m-auto"> {gretting} </h2>
-      <h2 style={{ textAlign: "center"}}>Mis productos </h2>
+      <h3 className="text-center py-2 m-auto"> {gretting} </h3>
+      <h4 style={{ textAlign: "center"}}>Mis productos </h4>
       <ItemList productos={productos}/>
     </div>
   )
